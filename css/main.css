@@ -911,7 +911,7 @@ CTA Float
 
 .hero-fullscreen:before {
   content: "";
-  background: rgba(var(--color-white-rgb), 0.6);
+  background: rgba(var(--color-white-rgb), 0.7);
   position: absolute;
   inset: 0;
 }
