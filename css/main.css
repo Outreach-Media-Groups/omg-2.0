@@ -1602,7 +1602,7 @@ CTA Float
   transition: all ease-in-out 0.3s;
   background: var(--color-white);
   position: relative;
-  background: rgba(var(--color-white-rgb), 0.9);
+  background: rgba(var(--color-white-rgb), 0.5);
   text-align: center;
   border-radius: 8px;
   box-shadow: 0px 0 25px rgba(var(--color-black-rgb), 0.1);
