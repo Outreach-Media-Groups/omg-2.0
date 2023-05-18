@@ -265,29 +265,64 @@
       </div>
     </section><!-- End Services Section -->
 
-    <div class="ser-contact container">
+    <div class="container d-flex align-items-center justify-content-center">
+      <div class="col-md-6">
+        <div class="rfp-form">
+          <!-- Make sure you don't change the form action-->
+          <form action="https://api.staticforms.xyz/submit" method="post">
+            <!-- Replace with accesKey sent to your email -->
+            <input type="hidden" name="accessKey" value="3b9ccd6c-c56c-4ccb-beaf-638c510ec4c7">
+            <!-- Required -->
+            <div class="input-box">
+              <input type="text" name="$fname" required>
+              <label> First Name</label>
+            </div>
+            <div class="input-box">
+              <input type="text" name="$lname" required>
+              <label>Last Name</label>
+            </div>
+            <div class="input-box">
+              <input type="text" name="$jobTitle" required>
+              <label>Job Title</label>
+            </div>
 
-      <h2>Looking for something else?</h2>
-      <!-- Make sure you don't change the form action-->
-      <form action="https://api.staticforms.xyz/submit" method="post">
-        <!-- Replace with accesKey sent to your email -->
-        <input type="hidden" name="accessKey" value="3b9ccd6c-c56c-4ccb-beaf-638c510ec4c7">
-        <!-- Required -->
-        <label for="name">Full Name</label>
-        <input type="text" name="name" id="name"> <!-- Optional --><br>
-        <label for="subject">Subject</label>
-        <input type="text" name="subject" id="subject"> <!-- Optional --><br>
-        <label for="email">Email</label>
-        <input type="text" name="email" id="email"> <!-- Optional --><br>
-        <label for="phone">Phone</label>
-        <input type="text" name="phone" id="phone"> <!-- Optional --><br>
-        <label for="message">Message</label>
-        <textarea name="message" id="message"></textarea> <!-- Optional --><br>
-        <input type="hidden" name="redirectTo" value="https://therajav.github.io/omg/services.html">
+            <div class="input-box">
+              <input type="text" name="$company" required>
+              <label>Company</label>
+            </div>
+            <div class="input-box">
+              <input type="email" inputmode="email" name="$email" required>
+              <label>Email</label>
+            </div>
+            <div class="input-box">
+              <input type="tel" inputmode="numeric" name="$phone">
+              <label>Phone (optional) </label>
+            </div>
+            <div class="input-box">
+              <input type="text" name="$location" required>
+              <label>Location</label>
+            </div>
+            <div class="input-box">
 
-        <input type="submit" value="Submit" />
-      </form>
+              <textarea placeholder="Message" name="$message"></textarea>
+
+            </div>
+
+            <input type="hidden" name="redirectTo" value="https://therajav.github.io/omg/services.html">
+
+            <center>
+              <a href="#">
+                <input type="hidden" value="Submit"> SEND
+                <span></span>
+              </a>
+            </center>
+          </form>
+        </div>
+      </div>
     </div>
+
+
+
 
   </main>
 
