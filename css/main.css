@@ -2256,8 +2256,9 @@ CTA Float
 
 .contact .info {
   padding: 40px;
-  box-shadow: 0px 2px 15px rgba(var(--color-black-rgb), 0.1);
+  box-shadow: 0px 2px 15px rgba(var(--color-black-rgb), 0.2);
   overflow: hidden;
+  height: 100%;
 }
 
 .contact .info h3 {
@@ -3211,12 +3212,22 @@ CTA Float
   position: relative;
   width: auto;
   padding: 40px;
-  /* transform: translate(-50%, -50%); */
   background: rgba(255, 255, 255, 0.987);
   box-sizing: border-box;
   box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
-  margin-bottom: 60px;
+
+}
+
+.rfp-form h3 {
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.rfp-form p {
+  color: var(--color-secondary-light);
+  margin-bottom: 42px;
+  font-size: 15px;
 }
 
 .rfp-form .input-box {
@@ -3279,15 +3290,13 @@ CTA Float
   transition: .5s;
   background: none;
   margin-top: 40px;
-  letter-spacing: 4px
+  letter-spacing: 4px;
+  border-radius: 30px;
 }
 
 .rfp-form a input:hover {
   background: #DB4437;
   color: #fff;
-  border-radius: 5px;
-  box-shadow: 0 0 5px #DB4437,
-    0 0 25px #DB4437,
-    0 0 50px #DB4437,
-    0 0 100px #DB4437;
+  border-radius: 30px;
+  scale: 1.04;
 }
